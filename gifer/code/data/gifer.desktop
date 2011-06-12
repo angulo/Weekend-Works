@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gifer
+Comment[es]=Creador de animaciones GIF
+Comment=GIF animations creator
+Exec=gifer
+Icon=gifer
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Graphics;

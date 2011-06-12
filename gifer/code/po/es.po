@@ -1,0 +1,245 @@
+# Gifer Spanish Translation File
+# Copyright (C) 2011
+# This file is distributed under the same license as the gifer package.
+# Javier Angulo Lucerón <javier.angulo1@gmail.com>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 22:22+0200\n"
+"PO-Revision-Date: 2011-06-11 17:35+0200\n"
+"Last-Translator: Javier Angulo Lucerón <javier.angulo1@gmail.com>\n"
+"Language-Team: None\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/gifer.cpp:51
+msgid "Set the image delay in seconds"
+msgstr "Fijar la duración de la imagen en segundos"
+
+#: ../src/gifer.cpp:122
+msgid "_New project"
+msgstr "Proyecto nuevo"
+
+#: ../src/gifer.cpp:122
+msgid "Create a new project"
+msgstr "Crear un proyecto nuevo"
+
+#: ../src/gifer.cpp:124
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: ../src/gifer.cpp:124
+msgid "Select all images"
+msgstr "Seleccionar todas las imágenes"
+
+#: ../src/gifer.cpp:125
+msgid "Unselect all"
+msgstr "Deseleccionar todo"
+
+#: ../src/gifer.cpp:125
+msgid "Unselect all images"
+msgstr "Deseleccionar todas las imágenes"
+
+#: ../src/gifer.cpp:126
+msgid "_Add images"
+msgstr "Añadir imágenes"
+
+#: ../src/gifer.cpp:126
+msgid "Add new images to the list"
+msgstr "Añadir imágenes nuevas a la lista"
+
+#: ../src/gifer.cpp:127
+msgid "_Remove images"
+msgstr "Borrar imágenes"
+
+#: ../src/gifer.cpp:127
+msgid "Remove the selected images"
+msgstr "Borrar las imágenes seleccionadas"
+
+#: ../src/gifer.cpp:128
+msgid "_Copy images"
+msgstr "Copiar imágenes"
+
+#: ../src/gifer.cpp:128
+msgid "Copy the selected images"
+msgstr "Copiar las imágenes seleccionadas"
+
+#: ../src/gifer.cpp:129
+msgid "_Paste images"
+msgstr "Pegar imágenes"
+
+#: ../src/gifer.cpp:129
+msgid "Paste the selected images"
+msgstr "Pegar las imágenes seleccionadas"
+
+#: ../src/gifer.cpp:130
+msgid "Move right"
+msgstr "Mover a la derecha"
+
+#: ../src/gifer.cpp:130
+msgid "Move the selected image to the right"
+msgstr "Mover la imagen seleccionada a la derecha"
+
+#: ../src/gifer.cpp:131
+msgid "Move left"
+msgstr "Mover a la izquierda"
+
+#: ../src/gifer.cpp:131
+msgid "Move the selected image to the left"
+msgstr "Mover la imagen seleccionada a la izquierda"
+
+#: ../src/gifer.cpp:132
+msgid "Loop"
+msgstr "Repetición continuada"
+
+#: ../src/gifer.cpp:133
+msgid "_Generate GIF"
+msgstr "Generar GIF"
+
+#: ../src/gifer.cpp:133
+msgid "Generate an animated GIF using the added images"
+msgstr "Generar GIF animado a partir de las imágenes añadidas"
+
+#: ../src/gifer.cpp:134
+msgid "P_review GIF"
+msgstr "Previsualizar GIF"
+
+#: ../src/gifer.cpp:134
+msgid "Preview current project"
+msgstr "Previsualizar el proyecto actual"
+
+#: ../src/gifer.cpp:135
+msgid "_About"
+msgstr "Acerca de"
+
+#: ../src/gifer.cpp:145
+msgid "_File"
+msgstr "Archivo"
+
+#: ../src/gifer.cpp:149
+msgid "_Edit"
+msgstr "Edición"
+
+#: ../src/gifer.cpp:160
+msgid "_Actions"
+msgstr "Acciones"
+
+#: ../src/gifer.cpp:164
+msgid "_Options"
+msgstr "_Opciones"
+
+#: ../src/gifer.cpp:167
+msgid "_Help"
+msgstr "Ayuda"
+
+#: ../src/gifer.cpp:265
+msgid "Are you sure do you want to delete the current project?"
+msgstr "¿Estás seguro de que deseas perder el proyecto actual?"
+
+#: ../src/gifer.cpp:273
+msgid "New project created"
+msgstr "Creado proyecto nuevo"
+
+#: ../src/gifer.cpp:285
+msgid "Are you sure do you want to quit?"
+msgstr "¿Estás seguro de que deseas salir?"
+
+#: ../src/gifer.cpp:298
+msgid "Add..."
+msgstr "Añadir..."
+
+#: ../src/gifer.cpp:302 ../src/gifer.cpp:488
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../src/gifer.cpp:303
+msgid "Add"
+msgstr "Añadir"
+
+#: ../src/gifer.cpp:328
+msgid "The following images have not been added. Check its format."
+msgstr "Las siguientes imágenes no han sido añadidas. Comprueba su formato."
+
+#: ../src/gifer.cpp:339
+msgid " images added"
+msgstr " imágenes añadidas"
+
+#: ../src/gifer.cpp:368
+msgid " images removed"
+msgstr " imágenes borradas"
+
+#: ../src/gifer.cpp:396
+msgid " images copied"
+msgstr " imágenes copiadas"
+
+#: ../src/gifer.cpp:415
+msgid " images pasted"
+msgstr " imágenes pegadas"
+
+#: ../src/gifer.cpp:426
+msgid "Preview loaded"
+msgstr "Vista previa cargada"
+
+#: ../src/gifer.cpp:457
+msgid "Gifer - Preview"
+msgstr "Gifer - Vista previa"
+
+#: ../src/gifer.cpp:467
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: ../src/gifer.cpp:469
+msgid "Loading preview..."
+msgstr "Cargando vista previa..."
+
+#: ../src/gifer.cpp:486
+msgid "Generate as..."
+msgstr "Generar como..."
+
+#: ../src/gifer.cpp:489
+msgid "Save"
+msgstr "Guardar"
+
+#: ../src/gifer.cpp:495
+msgid "GIF generated successfully"
+msgstr "GIF generado correctamente"
+
+#: ../src/gifer.cpp:662
+msgid "Invalid option: "
+msgstr "Opción no válida: "
+
+#: ../src/gifer.cpp:662 ../src/gifer.cpp:668
+msgid "See options with gifer --help\n"
+msgstr "Ver opciones con gifer --help\n"
+
+#: ../src/gifer.cpp:668
+msgid "Invalid argument: "
+msgstr "Argumento no válido: "
+
+#: ../src/gifer.cpp:686
+msgid "Threading not supported: aborting."
+msgstr "Multi-hilo no está disponible: abortando."
+
+#: ../src/gifer.cpp:716
+msgid "Usage: gifer [OPTION]... "
+msgstr "Uso: gifer [OPCIÓN]... "
+
+#: ../src/gifer.cpp:718
+msgid "Options:"
+msgstr "Opciones:"
+
+#: ../src/gifer.cpp:720
+msgid "\t-v, --version : Show the program version."
+msgstr "\t-v, --version: Mostrar la versión del programa."
+
+#: ../src/gifer.cpp:721
+msgid "\t-h, --help : Show this help."
+msgstr "\t-h, --help : Mostrar esta ayuda."
+
+#: ../src/gifer.cpp:723
+msgid "Send bugs to javier.angulo1@gmail.com"
+msgstr "Mandar bugs a javier.angulo1@gmail.com"

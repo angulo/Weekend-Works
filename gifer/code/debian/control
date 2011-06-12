@@ -1,0 +1,15 @@
+Source: gifer
+Section: gnome
+Priority: optional
+Maintainer: Javier Angulo Lucerón <javier.angulo1@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, build-essential, g++, pkg-config, libgtkmm-2.4-dev, libmagick++-dev
+Standards-Version: 3.8.3
+Homepage: http://weekendworks.wordpress.com/gifer
+
+Package: gifer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: graphical gif creator
+ Gifer is an application designed to ease gif creation
+ by providing a simple graphical interface to select images,
+ set timeouts and generate animated gifs.

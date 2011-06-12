@@ -1,0 +1,1 @@
+?package(gifer):needs="X11" section="Applications/Graphics" title="Gifer" command="gifer" icon="/usr/share/pixmaps/gifer.png"
