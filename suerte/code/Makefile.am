@@ -25,17 +25,17 @@ dist-hook:
 install-data-local:
 	install -d "$(DESTDIR)"/usr/share/pixmaps
 	install -d "$(DESTDIR)"/usr/share/applications
-	install -d "$(DESTDIR)"/usr/share/mll
-	install data/mll.desktop "$(DESTDIR)"/usr/share/applications/mll.desktop
-	install data/background.svg "$(DESTDIR)"/usr/share/mll/background.svg
-	install data/selection.svg "$(DESTDIR)"/usr/share/mll/selection.svg
-	install data/logo.png "$(DESTDIR)"/usr/share/pixmaps/mll.png
+	install -d "$(DESTDIR)"/usr/share/suerte
+	install data/suerte.desktop "$(DESTDIR)"/usr/share/applications/suerte.desktop
+	install data/background.svg "$(DESTDIR)"/usr/share/suerte/background.svg
+	install data/selection.svg "$(DESTDIR)"/usr/share/suerte/selection.svg
+	install data/logo.png "$(DESTDIR)"/usr/share/pixmaps/suerte.png
 clean-local:
 	cd doc; rm -rf html latex;
 uninstall-local:
-	rm -rf /usr/share/pixmaps/mll.png
-	rm -rf /usr/share/applications/mll.desktop
-	rm -rf /usr/share/mll
+	rm -rf /usr/share/pixmaps/suerte.png
+	rm -rf /usr/share/applications/suerte.desktop
+	rm -rf /usr/share/suerte
 html-local:
 	cd doc; doxygen doxygen.conf;
 pdf-local:

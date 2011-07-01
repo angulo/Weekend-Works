@@ -1,8 +1,8 @@
 ################################################################
-############### mll install notes ################
+############### suerte install notes ################
 #################################################################
 
-1.- What is mll
+1.- What is suerte
 2.- How to install it
 	2.1.- Build from source
 	2.2.- Uninstall
@@ -12,7 +12,7 @@
 
 ----------------------------------------------------------------
 ===============================
-1.- What is mll
+1.- What is suerte
 ===============================
 
 
@@ -22,7 +22,7 @@
 
 If you are reading it your intention is to build the program
 from source. If not, try looking for .deb o .rpm pakages of
-the program at <http://weekendworks.wordpress.com/mll> or,
+the program at <http://weekendworks.wordpress.com/suerte> or,
 if available, using your distribution package manager like 
 yum or aptitude.
 	
@@ -30,7 +30,7 @@ yum or aptitude.
 	2.1.- Build from source
 	========================
 
-	Before building mll, check that the following libraries
+	Before building suerte, check that the following libraries
 	are installed in your system. If not, install them using
 	your standard packager manager:
 
@@ -39,7 +39,7 @@ yum or aptitude.
 	When installed, continue with the following steps:
 
 	$ ./autogen.sh (ONLY do that if configure file is not
-								 present in mll directory. It should need
+								 present in suerte directory. It should need
 								 autoconf and automake packages)
 	$ ./configure (its possible that some advice is printed
 								suggesting the installation of some tool
@@ -61,7 +61,7 @@ After building and installing it, the application can be launch
 with this command-line style:
 
 
-mll [OPTION]... 
+suerte [OPTION]... 
 
 
 The following options can be used to modify program behavior:
@@ -79,7 +79,7 @@ If you are trying to improve the project, taking source code
 from it or studying how it works, read this section.
 
 It is possible to build a full html, latex and pdf documentation
-from the source in folder mll. To do so, follow this steps:
+from the source in folder suerte. To do so, follow this steps:
 
 $ ./configure (its possible that some advice is printed
 							suggesting the installation of some tool
@@ -91,7 +91,7 @@ If done correctly, two folders will be created:
 
 doc/html  :  HTML documentation. See it with 
                 your web-browser (firefox, chromium, etc)
-								opening mll/doc/html/index.html.
+								opening suerte/doc/html/index.html.
 
 doc/latex :  latex and pdf documentation. See it with
                 your pdfreader (evince, kpdf, etc).
@@ -101,13 +101,13 @@ of the whole application. Class diagrams, parameters explanation
 and more is there.
 
 If you have any question, take a look at the project home-page
-<http://weekendworks.wordpress.com/mll> or contact the main
+<http://weekendworks.wordpress.com/suerte> or contact the main
 developer writing to javier.angulo1@gmail.com.
 
 ======================
 5.- Contact & Support
 ======================
 
-Project homepage: http://weekendworks.wordpress.com/mll
+Project homepage: http://weekendworks.wordpress.com/suerte
 
 Email: javier.angulo1@gmail.com

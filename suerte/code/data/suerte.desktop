@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Suerte
+Comment[es]=Sorteador de elementos
+Comment=Item dealer
+Exec=suerte
+Icon=suerte
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Tools;

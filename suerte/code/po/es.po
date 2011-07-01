@@ -1,0 +1,36 @@
+# Suerte spanish translation file
+# Copyright (C) 2011 Javier Angulo Lucerón 
+# This file is distributed under the same license as the suerte package.
+# Javier Angulo Lucerón <javier.angulo1@gmail.com>, 2011
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-30 14:43+0200\n"
+"PO-Revision-Date: 2011-06-30 14:43+0200\n"
+"Last-Translator: Javier Angulo Lucerón <javier.angulo1@gmail.com>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/suerte.c:19
+#, c-format
+msgid "[create_item] Invalid parameters while creating item, item discarded\n"
+msgstr "[create_item] Parámetros incorrectos a la hora de crear un ítem, ítem descartado\n"
+
+#: ../src/suerte.c:26
+msgid "[create_item] Error while allocating item"
+msgstr "Error al reservar memoria para un ítem"
+
+#: ../src/suerte.c:44
+#, c-format
+msgid "[create_person] Invalid parameters while creating person, person discarded\n"
+msgstr "[create_person] Parámetros incorrectos a la hora de crear un ítem, ítem descartado\n"
+
+#: ../src/suerte.c:51
+msgid "[create_person] Error while allocation person"
+msgstr "Error al reservar memoria para una persona"

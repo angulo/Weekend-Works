@@ -1,0 +1,1 @@
+?package(suerte):needs="X11" section="Applications/Tools" title="Suerte" command="suerte" icon="/usr/share/pixmaps/suerte.png"

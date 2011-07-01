@@ -1,16 +1,16 @@
-Source: mll
+Source: suerte
 Section: gnome
 Priority: optional
 Maintainer: Javier Angulo Lucerón <javier.angulo1@gmail.com>
 Build-Depends: debhelper (>= 7), autotools-dev, build-essential, gcc, pkg-config, libgtk-3-dev
 Standards-Version: 3.8.3
-Homepage: http://weekendworks.wordpress.com/mll
+Homepage: http://weekendworks.wordpress.com/suerte
 
-Package: mll
+Package: suerte
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: multi-language learning tool
- mll is an application that can be used to learn programming
- languagues by means of an small (< 200 lines) representative 
- program and a text file which describes the tutorial itself 
- using the said program as a base of examples.
+ suerte is an application that can be used to deal issues
+ as prizes, parts of a work or anything that must be assigned
+ to a person between a group. It can also be used to distribute
+ some items randomly.

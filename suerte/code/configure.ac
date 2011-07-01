@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.65])
-AC_INIT([mll], [0.1], [javier.angulo1@gmail.com])
+AC_INIT([suerte], [0.1], [javier.angulo1@gmail.com])
 AC_PREFIX_DEFAULT([/usr])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile src/Makefile])
@@ -12,7 +12,7 @@ AC_LANG(C++)
 
 # Internationalization
 IT_PROG_INTLTOOL([0.41.0])
-GETTEXT_PACKAGE=mll
+GETTEXT_PACKAGE=suerte
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"], [Translation domain used])
 AM_GLIB_GNU_GETTEXT
@@ -35,7 +35,7 @@ AC_TYPE_PID_T
 AC_FUNC_FORK
 AC_CHECK_FUNCS([atexit getcwd mkfifo])
 
-PKG_CHECK_MODULES([MLL], [gtk+-3.0])
+PKG_CHECK_MODULES([SUERTE], [gtk+-3.0])
 
 AC_CONFIG_FILES(po/Makefile.in)
 AC_OUTPUT
