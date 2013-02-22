@@ -1,9 +1,0 @@
-AUTOMAKE_OPTIONS = subdir-objects
-ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS}
-AM_CPPFLAGS = $(MLL_CFLAGS) -I . -DPROGRAMNAME_LOCALEDIR=\"${PROGRAMNAME_LOCALEDIR}\"
-
-bin_PROGRAMS = mll
-bindir = /usr/bin
-
-mll_SOURCES = mll.h mll.c
-mll_LDADD = $(MLL_LIBS) 
